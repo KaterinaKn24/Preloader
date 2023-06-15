@@ -1,0 +1,101 @@
+.container {
+	width: 240px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-areas:
+	"picture picture2"
+	"picture4 picture3";
+}
+.picture {
+	grid-area: picture;
+}
+.foto {
+	width: 100px;
+	height: 100px;
+	animation: foto 3s linear infinite;
+}
+.picture2 {
+	grid-area: picture2;
+}
+.foto2 {
+	width: 100px;
+	height: 100px;
+	animation: foto 3s linear infinite;
+	animation-delay: 3s;
+}
+.picture3 {
+	grid-area: picture3;
+}
+.foto3 {
+	width: 100px;
+	height: 100px;
+	animation: foto 3s linear infinite;
+	animation-delay: 6s;
+	
+}
+.picture4 {
+	grid-area: picture4;
+}
+.foto4 {
+	width: 100px;
+	height: 100px;
+	animation: foto 3s linear infinite;
+	animation-delay: 9s;
+}
+@keyframes foto {
+	0% {
+		width: 100px;
+		height: 100px;
+	}
+	50% {
+		width: 50px;
+		height: 50px;
+	}
+	100% {
+		width: 120px;
+		height: 120px;
+	}
+}
+@keyframes foto2 {
+	0% {
+		width: 100px;
+		height: 100px;
+	}
+	50% {
+		width: 50px;
+		height: 50px;
+	}
+	100% {
+		width: 120px;
+		height: 120px;
+	}
+}
+@keyframes foto3 {
+	0% {
+		width: 100px;
+		height: 100px;
+	}
+	50% {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+	100% {
+		width: 120px;
+		height: 120px;
+	}
+}
+@keyframes foto4 {
+	0% {
+		width: 100px;
+		height: 100px;
+	}
+	50% {
+		width: 50px;
+		height: 50px;
+	}
+	100% {
+		width: 120px;
+		height: 120px;
+	}
+}
