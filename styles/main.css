@@ -46,14 +46,17 @@
 	0% {
 		width: 100px;
 		height: 100px;
+		opacity: 0.5;
 	}
 	50% {
 		width: 50px;
 		height: 50px;
+		opacity: 0.1;
 	}
 	100% {
 		width: 120px;
 		height: 120px;
+		opacity: 1;
 	}
 }
 @keyframes foto2 {
